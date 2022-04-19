@@ -48,8 +48,8 @@ public class Monteur {
 		
 		System.out.println("----------------------------------------");
 		
-		System.out.println("Alles is gerepareerd door de monteur.");
-		System.out.println("De prijs is: " + totaal);
+		System.out.println("Overzicht van status onderdelen: ");
+		System.out.println(Arrays.toString(auto.onderdelen));
 		
 	}
 }

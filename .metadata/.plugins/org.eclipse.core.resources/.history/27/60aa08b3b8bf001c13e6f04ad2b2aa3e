@@ -1,0 +1,21 @@
+package RepareCar;
+
+import java.util.Arrays;
+
+public class Monteur {
+	public static void main(String[] args) {
+		int totaal = 0;
+
+		Auto auto = new Auto();
+		System.out.println(Arrays.toString(auto.onderdelen));
+		
+		System.out.println("Overzicht van status onderdelen: ");
+		if (auto.onderdelen[0] == false) {
+			System.out.println("De motor is kapot.");
+			totaal = totaal + 25;
+		}
+		else {
+			System.out.println("De motor is niet kapot.");
+		}
+	}
+}

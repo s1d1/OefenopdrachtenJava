@@ -1,0 +1,11 @@
+package RepareCar;
+
+
+public class Monteur {
+	public static void main(String[] args) {
+		int totaalprijs;
+		totaalprijs = 0;
+		
+		Auto auto = new Auto();
+	}
+}

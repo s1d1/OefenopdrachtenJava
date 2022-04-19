@@ -12,7 +12,7 @@ public class Monteur {
 		System.out.println("Overzicht van status onderdelen: ");
 		if (auto.onderdelen[0] == false) {
 			System.out.println("De motor is kapot.");
-			auto.onderdelen[0] = true;
+			auto.motor = true;
 			totaal = totaal + 25;
 		}
 		else {
@@ -21,7 +21,7 @@ public class Monteur {
 		
 		if (auto.onderdelen[1] == false) {
 			System.out.println("De deur is kapot.");
-			auto.onderdelen[1] = true;
+			auto.deur = true;
 			totaal = totaal + 25;
 		}
 		else {
@@ -30,7 +30,7 @@ public class Monteur {
 		
 		if (auto.onderdelen[2] == false) {
 			System.out.println("De voorruit is kapot.");
-			auto.onderdelen[2] = true;
+			auto.voorruit = true;
 			totaal = totaal + 25;
 		}
 		else {
@@ -39,7 +39,7 @@ public class Monteur {
 		
 		if (auto.onderdelen[3] == false) {
 			System.out.println("De uitlaat is kapot.");
-			auto.onderdelen[3] = true;
+			auto.uitlaat = true;
 			totaal = totaal + 25;
 		}
 		else {
@@ -48,8 +48,8 @@ public class Monteur {
 		
 		System.out.println("----------------------------------------");
 		
-		System.out.println("Alles is gerepareerd door de monteur.");
-		System.out.println("De prijs is: " + totaal);
+		System.out.println("Overzicht van status onderdelen: ");
+		System.out.println(Arrays.toString(auto.onderdelen));
 		
 	}
 }

@@ -6,10 +6,10 @@ public class Auto {
 	boolean motor;
 	boolean deur;
 	boolean voorruit;
-	boolean uitlaat;
-	boolean onderdelen[];
+	boolean uitlaat; 
+    boolean[] onderdelen;
     
     public Auto() {
-    	onderdelen = new boolean[]{motor = true, deur = false, voorruit = false, uitlaat = true};
+    	onderdelen = {motor = true, deur = false, voorruit = false, uitlaat = true};
     }
 }

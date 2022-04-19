@@ -7,9 +7,8 @@ public class Auto {
 	boolean deur;
 	boolean voorruit;
 	boolean uitlaat;
-	boolean onderdelen[];
     
     public Auto() {
-    	onderdelen = new boolean[]{motor = true, deur = false, voorruit = false, uitlaat = true};
+    	boolean[] onderdelen = {motor = true, deur = false, voorruit = false, uitlaat = true};
     }
 }

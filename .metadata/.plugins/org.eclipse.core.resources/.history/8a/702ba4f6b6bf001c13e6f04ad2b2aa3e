@@ -1,0 +1,12 @@
+package RepareCar;
+
+
+public class Monteur {
+	public static void main(String[] args) {
+		int totaal = 0;
+
+		Auto auto = new Auto();
+		
+		System.out.println(java.util.Arrays.toString(auto.onderdelen));
+	}
+}

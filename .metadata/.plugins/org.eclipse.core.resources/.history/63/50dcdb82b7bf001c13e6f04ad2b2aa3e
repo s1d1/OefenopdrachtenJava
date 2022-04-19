@@ -10,6 +10,7 @@ public class Auto {
 	boolean onderdelen[];
     
     public Auto() {
-    	onderdelen = new boolean[]{motor = true, deur = false, voorruit = false, uitlaat = true};
+    	boolean[] onderdelen = {motor = true, deur = false, voorruit = false, uitlaat = true};
+    	System.out.println(java.util.Arrays.toString(auto.onderdelen));
     }
 }
