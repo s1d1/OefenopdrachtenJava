@@ -1,0 +1,23 @@
+package oefenen;
+
+import java.util.Scanner;
+
+public class SortLetters {
+	public static void main(String[] args) {
+	// Ask for word from user
+	
+    System.out.println("Type a word: ");
+    Scanner s = new Scanner(System.in);  
+    String word = s.nextLine(); 
+    
+    // Print word
+    System.out.println("You've typed: " + word); 
+    
+    // Set word in alphabetical order
+    String sorted_word = ''; 
+    
+    // Print word in alphabetical order
+    System.out.println("The word in alphabetical order " + sorted_word); 
+    
+	}
+}

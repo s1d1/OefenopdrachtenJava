@@ -1,0 +1,7 @@
+package hat;
+
+public class Kapitein {
+	public static void varen() {
+		Boot.starten();
+	}
+}

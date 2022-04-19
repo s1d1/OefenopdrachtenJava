@@ -1,0 +1,26 @@
+package RepareCar;
+
+import java.util.Arrays;
+
+public class Auto {	
+	boolean motor;
+	boolean deur;
+	boolean vooruit;
+	boolean uitlaat; 
+
+	public Auto() {
+	    boolean[] onderdelen = {motor = true, deur = false, vooruit = false, uitlaat = true};
+	}
+	
+}
+
+//public class Auto {
+//	public static void main(String args[])
+//	{
+//		boolean boolean_array[] = {true, false, true, true};
+//		// converting java boolean array to string
+//		System.out.println("converted boolean array to String");
+//		System.out.println(Arrays.toString(boolean_array));
+//	
+//	}
+//}

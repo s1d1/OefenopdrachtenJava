@@ -1,0 +1,16 @@
+package oefenen;
+
+import java.util.Scanner;
+
+public class CountArray {
+	public static void main(String[] args) {
+		
+	    Scanner lezen = new Scanner(System.in);  
+	    System.out.println("Give a sequence of numbers: ");
+	    String numbers = lezen.nextLine(); 
+	    
+	    
+	    
+	    
+	}
+}

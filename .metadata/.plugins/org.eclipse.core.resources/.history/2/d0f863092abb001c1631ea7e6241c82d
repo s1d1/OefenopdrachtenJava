@@ -1,0 +1,18 @@
+package oefenen;
+
+import java.util.Scanner;
+
+public class SortLetters {
+	public static void main(String[] args) {
+	// Ask for String from user
+	
+    System.out.println("Type a word: ");
+    Scanner s = new Scanner(System.in);  
+    String word = s.nextLine(); 
+    
+    System.out.println("Type a word: "); 
+    
+    
+    
+	}
+}

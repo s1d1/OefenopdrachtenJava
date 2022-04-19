@@ -1,0 +1,12 @@
+package RepareCar;
+import java.util.Arrays;
+
+
+public class Monteur {
+	
+	
+	public Monteur(boolean[] onderdelen) {
+		this.onderdelen = onderdelen;
+	}
+
+}

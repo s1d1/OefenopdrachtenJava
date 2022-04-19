@@ -1,0 +1,5 @@
+package interfaces;
+
+public interface Vliegend {
+	public void vliegen(); 
+}

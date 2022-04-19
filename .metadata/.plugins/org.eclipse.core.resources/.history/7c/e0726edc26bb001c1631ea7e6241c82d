@@ -1,0 +1,14 @@
+package RepareCar;
+
+public class Auto {	
+	boolean motor;
+	boolean deur;
+	boolean vooruit;
+	boolean uitlaat; 
+	String[] onderdelen;
+	
+	public Auto() {
+	    String[] onderdelen = new String[4];
+	}
+	
+}

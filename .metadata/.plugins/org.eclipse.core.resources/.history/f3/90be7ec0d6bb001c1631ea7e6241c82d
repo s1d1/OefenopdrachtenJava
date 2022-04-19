@@ -1,0 +1,12 @@
+package oefenen;
+
+public class Interfaces {
+	public interface Vliegend {
+		void vliegend();
+	}
+	public static void main(String[] args) {
+		public Vliegend Vliegtuig {
+			void kanEenVliegtuig();
+		}
+	}
+}

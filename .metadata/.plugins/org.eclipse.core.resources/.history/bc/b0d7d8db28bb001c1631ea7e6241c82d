@@ -1,0 +1,6 @@
+package RepareCar;
+
+public class Monteur(boolean[] onderdelen) {
+	this.onderdelen = onderdelen;
+
+}

@@ -1,0 +1,12 @@
+package oefenen;
+
+public class SortArray {
+	public static void main(String[] args) {
+		
+		// Maak een array met 10 random getallen die deze in de volgorde van generering toont.
+		
+		// Toon daarna deze array in gesorteerde volgorde. 
+		
+		
+	}
+}

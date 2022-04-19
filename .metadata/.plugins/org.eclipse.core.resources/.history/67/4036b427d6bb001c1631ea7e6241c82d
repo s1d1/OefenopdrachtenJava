@@ -1,0 +1,11 @@
+package interfaces;
+
+public class Main {
+	interface Vliegend {
+		public void vliegen(); 
+	}
+	
+	void check (Vliegend vlieg) {
+		
+	}
+}

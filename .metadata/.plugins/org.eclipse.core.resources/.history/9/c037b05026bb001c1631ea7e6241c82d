@@ -1,0 +1,43 @@
+package oefenen;
+
+import java.util.Arrays;
+
+public class RepareCar {
+	
+	public class Auto {	
+		boolean motor;
+		boolean deur;
+		boolean vooruit;
+		boolean uitlaat; 
+		String[] onderdelen;
+		
+		public Auto() {
+		    String[] onderdelen = new String[4];
+		}
+		
+	}
+	
+	public class Monteur {
+		
+	}
+	
+	public static void main(String[] args) {
+
+		Auto auto1 = new Auto();
+		System.out.println(Arrays.toString(auto1.onderdelen)); 
+		
+		// In de constructor bepaal je mbv een array van booleans welke onderdelen kapot zijn en niet
+		
+		// De toString methode toont je welke onderdele kapot en niet kapot zijn. Het gaat om de onderdelen:
+		// - boolean motor;
+		// - boolean deur;
+		// - boolean vooruit:
+		// - boolean uitlaat;
+		
+		// De Monteur loopt deze booleans af en repareert ze.
+		// Het repareren heeft een prijs: elk onderdeel dat is gerepareerd kost 25 euro extra. 
+		
+	}
+	
+
+}

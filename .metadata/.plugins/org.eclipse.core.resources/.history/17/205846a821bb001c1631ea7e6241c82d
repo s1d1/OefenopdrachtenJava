@@ -1,0 +1,25 @@
+package oefenen;
+
+import java.util.Random;
+
+public class SortArray {
+	public static void main(String[] args) {
+		
+		// Maak een array van lengte van 10 
+		Random random = new Random();
+		int[] array = new int[10];
+		
+		// Voeg 10 random getallen toe aan de array
+		for (int i = 0; i < array.length; i++){
+			array[i] = random.nextInt();
+//			System.out.println(array[i]); // printing each array element
+		}
+		// Sorteer de array
+		
+	
+		
+		// Print de gesorteerde array 
+		
+		 
+	}
+}

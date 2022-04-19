@@ -1,0 +1,30 @@
+package oefenen;
+
+import java.util.Scanner;
+
+public class CountArray {
+	public static void main(String[] args) {
+		
+	    Scanner lezen = new Scanner(System.in);  
+	    System.out.println("Give a sequence of numbers: ");
+	    String sequence = lezen.nextLine(); 
+	    
+	    //5683264
+	    
+	    System.out.println(sequence);
+	    
+	    int cijfer = 0;
+	    int som = 0; 
+	    int numbers = Integer.parseInt(sequence);
+	    
+	    System.out.println(numbers);
+	    
+	    for (int i = 0; i < sequence.length(); i++) {
+	    	
+	    	som = (som + cijfer); 
+	    }
+	    
+	    System.out.println("The total sum is: " + som);
+	    
+	}
+}

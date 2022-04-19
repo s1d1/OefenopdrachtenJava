@@ -1,0 +1,15 @@
+package RepareCar;
+
+
+public class Monteur {
+	boolean[] onderdelen;
+	
+	public Monteur(boolean[] onderdelen) {
+		this.onderdelen = onderdelen;
+	}
+	
+	for (i = 0; i < this.onderdelen.length; i++) {
+		System.out.println(i);
+
+	}
+}

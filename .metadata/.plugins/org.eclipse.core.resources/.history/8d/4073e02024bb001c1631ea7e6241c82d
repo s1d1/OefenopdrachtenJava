@@ -1,0 +1,11 @@
+package oefenen;
+
+public class RepareCar {
+	public static void main(String[] args) {
+		
+		// Maak twee klassen aan: Monteur en Auto
+		
+		// 
+		
+	}
+}

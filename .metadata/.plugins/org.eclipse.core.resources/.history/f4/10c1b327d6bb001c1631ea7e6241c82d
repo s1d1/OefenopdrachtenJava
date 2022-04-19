@@ -1,0 +1,7 @@
+package interfaces;
+
+public class Vliegtuig implements Vliegend {
+	public void vliegen() {
+		System.out.println("Een vliegtuig kan vliegen.");
+	}
+}

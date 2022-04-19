@@ -1,0 +1,9 @@
+package hat;
+
+public class Boot {
+
+	public static void starten() {
+		System.out.println("Dit is en boot");		
+	}
+
+}
